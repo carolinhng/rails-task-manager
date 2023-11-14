@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+ }
+
+ h1 {
+  font-size: 40px;
+ }
+
+ .container {
+  border: 1px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding: 30px;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 20px;
+ }
+
+ .new_task_container {
+  padding: 20px;
+ }
+
+ .button {
+  padding: 20px;
+  background-color: rgb(77, 127, 199);
+  border-radius: 20px;
+  color: white;
+ }
+
+ .button a {
+  background-color: rgb(77, 127, 199);
+  border-radius: 20px;
+  color: white;
+ }
+
+ .fa-solid {
+  font-size: 20px;
+  margin-right: 10px;
+  color: blue;
+ }
+
+
+ a {
+  text-decoration: none;
+ }
